@@ -19,7 +19,12 @@ var swiper = new Swiper(".swiper", {
     thresholdDelta: 50,
     sensitivity: 1,
   },
+  autoplay: {
+    delay: 3000, // Delay between slides in milliseconds
+    disableOnInteraction: false, // Keep autoplay running even after user interactions
+  },
 });
+
 
 particlesJS("particles-js", {
   particles: {
