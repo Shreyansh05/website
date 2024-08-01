@@ -611,3 +611,214 @@ html {
    }
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+.serv {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  background: #272525 !important;
+  /* margin: 0; */
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+.serv h1 {
+  text-align: center;
+  margin: 50px auto 120px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main {
+  width: 100%;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.service {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 0 0 20px -15px #222223;
+  transition: transform .8s;
+}
+
+/* Mengatur posisi logo service */
+.service-logo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: -90px auto 0;
+  background: #fff;
+  border: 18px solid #272829;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Membuat border title */
+.service h4 {
+  height: 35px;
+  width: 80%;
+  margin: 50px auto;
+  background: #fff;
+  position: relative;
+}
+
+.service h4::after,
+.service h4::before {
+  content: '';
+  width: 40px;
+  height: 30px;
+ position: absolute;
+ z-index: -1;
+}
+
+.service h4::after {
+  background: linear-gradient(to right, #fff, #2a2a2b);
+  right: -5px;
+  top: -5px;
+}
+
+.service h4::before {
+  background: linear-gradient(to right, #181819, #fff);
+  left: -5px;
+  bottom: -5px;
+}
+
+
+/* membuat shadow untuk service */
+.main::after {
+  content: '';
+  height: 200px;
+  width: 80%;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 10%;
+  z-index: -1;
+  box-shadow: 0 0 20px -15px #18181a;
+  transition: transform .8s;
+}
+.main::before {
+  content: '';
+  height: 200px;
+  width: 64%;
+  background: #fff;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 18%;
+  z-index: -2;
+}
+
+.main:hover .service {
+  transform: translateY(-50px);
+}
+
+.main:hover::after {
+  transform: translateY(-25px);
+}
+
+.service-logo img {
+  transition: transform 1s;
+}
+
+.main:hover .service-logo img {
+  transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+/*whatsapp */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
+.foot{
+  margin-top: 80px !important;
+  font-size: 10px;
+}
+
+.footer{
+  
+  font-size: 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #263238;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.footer .icons{
+  padding-top: 1rem;
+}
+
+.footer .icons a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name{
+  font-size: 1.0rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 500px){
+ 
+}    
+
+@media(min-width: 501px) and (max-width: 768px){
+  .footer{
+    margin-bottom: 70px;
+
+  }
+}    
