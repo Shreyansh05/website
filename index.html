@@ -6,6 +6,8 @@
     <title>Web Arena</title>
 
     <link rel="stylesheet" href="CSS/style.css" />
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>   
     <!-- icon  -->
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" />
 
@@ -15,6 +17,14 @@
 
   <!-- mobile  -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" />
+
+
+  <!-- servive  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -33,23 +43,24 @@
                             </a>
                         </li>
                         <li class="menu-item">
-                            <a href="#about" class="menu-link">
+                            <a href="#abouthead" class="menu-link">
                                 <i class="menu-icon ion-md-contact"></i>
                                 <span class="menu-name">About</span>
                             </a>
                         </li>
                         <li class="menu-item">
-                            <a href="#explores" class="menu-link">
+                            <a href="#services" class="menu-link">
+                                <i class="menu-icon ion-md-cart"></i>
+                                <span class="menu-name">Services</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#exploreHead" class="menu-link">
                                 <i class="menu-icon ion-md-rocket"></i>
                                 <span class="menu-name">Explore</span>
                             </a>
                         </li>
-                        <li class="menu-item">
-                            <a href="#serv" class="menu-link">
-                                <i class="menu-icon ion-md-cart"></i>
-                                <span class="menu-name">Service</span>
-                            </a>
-                        </li>
+                       
 
                         <li class="menu-item">
                             <a href="#foot" class="menu-link">
@@ -76,23 +87,87 @@
 
 
 <!-- about us  -->
+ <div id="abouthead">About Us</div>
 
-<section class="about-us" id="about">
+<div class="about-us" id="about">
     <div class="aboutcontainer">
         
         <div class="aboutcontent">
-            <h1 data-aos="fade-left">Who We Are</h1>
-            <p>Welcome to our company! We are dedicated to providing the best service to our customers. Our team is composed of experienced professionals who are passionate about what they do. We believe in innovation, excellence, and making a difference in the industry.</p>
+            <h1 data-aos="fade-left">Who We Are?</h1>
+            <p>Welcome to <b style="color: rgb(30, 126, 94);">Web Arean!</b> We specialize in providing top-tier digital solutions to enhance your online presence and streamline your business operations.</p>
+            <p>Creating visually appealing, user-friendly websites tailored to your brand.</p>
+            <p>Boosting your social media presence with strategic content and engagement.</p>
         </div>
         <div class="aboutimage">
             <img src="assets/about.gif" alt="Our Team">
         </div>
     </div>
-</section>
+</div>
+
+
+<!-- what we do  -->
+
+
+<section class="service1" id="services">
+    <h2>Our Services</h2>
+    <div class="row1">
+      <div class="service2">
+        <i class="ri-macbook-line"></i>
+        <h3>Web Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-store-3-line"></i>
+        <h3>Marketing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-database-2-line"></i>
+        <h3>Data Analysis</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-palette-line"></i>
+        <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-android-line"></i>
+        <h3>App Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-account-box-line"></i>
+        <h3>Accouting</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-hand-coin-line"></i>
+        <h3>Business Management</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="service2">
+        <i class="ri-english-input"></i>
+        <h3>English Teaching</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
 <!-- explore section  -->
  
-<div class="exploreHead">
-    <h3 class="text page__text" data-text="#Explore">#Explore  YourSelf  Digital</h3>
+ <div class="exploreHead" id="exploreHead">
+    <h3 class="text page__text" data-text="#Explore_YourSelf_Digital">#Explore_YourSelf_Digital</h3>
 </div>
 
  <div class="explore">
@@ -107,7 +182,7 @@
         </section>
        
         <div class="explore_item2" data-aos="fade-left">
-            <img src="assets/explore1.gif" alt="" style="width:448px;height:448px;"/>
+            <img src="assets/explore1.gif" alt="" style="width:448px;height:348px;"/>
             </div>
             <section class="mytext-box-section" >
                 <div data-aos="fade-left" class="mytext-box">
@@ -119,14 +194,12 @@
                 <img src="assets/Best Makeup Artist In Noida.gif" alt="" style="width:448px;height:448px;"/>
         </div>
         <div class="explore_item2" data-aos="fade-left">
-            <img src="assets/download.gif" alt="" style="width:548px;height:448px;"/>
+            <img src="assets/download.gif" alt="" style="width:548px;height:348px;"/>
     </div>
-    <div class="explore_item2" data-aos="fade-left">
-        <img src="assets/Happy Client throuhgh your website.gif" alt="" style="width:548px;height:448px;"/>
-</div>
+    
         
 <section class="mytext-box-section" >
-    <div data-aos="flip-left" class="mytext-box" style="background-color: #5ec77b;">
+    <div data-aos="flip-left" class="mytext-box" style="background-color: #b7af17;">
         <h2 style="color: rgb(248, 253, 253);">Done</h2>
         <h2 style="color: rgb(248, 253, 253);">Grow your Business on Google</h2>
     </div>
@@ -229,19 +302,19 @@
     </div>
 </div>
 
-
-<div class="ourservice">
+<!-- service list  -->
+ <div class="ourservice">
     <div class="serviceList">
 
         <ul class="team">
-            <li class="member co-funder">
+            <!-- <li class="member co-funder">
                 <div class="thumb"><img src="https://assets.codepen.io/3/internal/avatars/users/default.png?fit=crop&format=auto&height=120&width=120"></div>
                 <div class="description">
                     <h3>Chris Coyier</h3>
                     <p>Chris is a front-end developer and designer. He writes a bunch of HTML, CSS, and JavaScript and shakes the pom-poms for CodePen.<br><a href="https://codepen.io/chriscoyier/">@chriscoyier</a></p>
                 </div>
-            </li>
-            <li class="member co-funder">
+            </li> -->
+            <li class="member">
                 <div class="thumb"><img src="https://assets.codepen.io/2/internal/avatars/users/default.png?height=120&width=120"></div>
                 <div class="description">
                     <h3>Alex Vazquez</h3>
@@ -287,7 +360,7 @@
     
     </div>
 
-</div>
+</div> 
 
 
 
