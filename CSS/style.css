@@ -575,7 +575,7 @@ margin-right: 30px;
     filter: brightness(1.2);
 }
   
-  @media (max-width: 440px) {
+  @media (max-width: 340px) {
     .grid-flex {
       height: 40em;
       display: -webkit-flex;
