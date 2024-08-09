@@ -40,19 +40,19 @@ menuLinks.forEach((link) => {
 });
 
 // title writer
-const title = document.querySelector('.title');
-const text = "Shaping the Future of Your Business!";
-let index = 0;
+// const title = document.querySelector('.title');
+// const text = "Shaping the Future of Your Business!";
+// let index = 0;
 
-function type() {
-  if (index < text.length) {
-    title.textContent += text.charAt(index);
-    index++;
-    setTimeout(type, 100); // Adjust typing speed as needed
-  }
-}
+// function type() {
+//   if (index < text.length) {
+//     title.textContent += text.charAt(index);
+//     index++;
+//     setTimeout(type, 100); // Adjust typing speed as needed
+//   }
+// }
 
-type();
+// type();
 
 
 
