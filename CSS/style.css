@@ -300,7 +300,6 @@
 }
 
 
-
 .land .text {
   opacity: 0;
   position: absolute;
@@ -744,6 +743,19 @@
   transition: all 0.3s linear; /* Smooth transition for hover effect */
 }
 
+@media (min-width: 1080px) {
+  .land .text {
+    width: 700px;
+    height: 300px;
+    top: 20%;
+    left: 25%;
+    line-height: 1.2;
+    font-size: 68px;
+    font-weight: 700;
+  }
+  
+
+}
  
 /* about us =========================== */
 
