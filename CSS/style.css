@@ -729,6 +729,14 @@
   }
 }
 
+.langImg img{
+ display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 55px;
+  margin-top: 15px;
+  transition: all 0.3s linear;
+}
  
 /* about us =========================== */
 
