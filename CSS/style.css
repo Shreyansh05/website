@@ -739,7 +739,8 @@
   display: flex;
   width: 200px;
   height: 200px;
-  border-radius: 55px;
+  /* border-radius: 55px; */
+  clip-path: inset(5% 0 0 0 round 5% 20% 0 10%);
   transition: all 0.3s linear; /* Smooth transition for hover effect */
 }
 
