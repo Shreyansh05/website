@@ -729,14 +729,20 @@
   }
 }
 
-.langImg img{
- display: flex;
+.langImg {
+
+  top: 15px; /* Initial vertical position */
+  left: 35px; /* Horizontal position */
+  transition: transform 0.3s linear; /* Smooth transition */
+}
+.langImg img {
+  display: flex;
   width: 200px;
   height: 200px;
   border-radius: 55px;
-  margin-top: 15px;
-  transition: all 0.3s linear;
+  transition: all 0.3s linear; /* Smooth transition for hover effect */
 }
+
  
 /* about us =========================== */
 

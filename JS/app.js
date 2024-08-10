@@ -62,6 +62,17 @@ AOS.init({
   });
   
 
+  window.addEventListener('scroll', function() {
+    const scrollY = window.scrollY;
+    const langImg = document.querySelector('.langImg');
+
+    const maxMovement = 130; // Maximum distance the element should move
+    const movement = Math.min(scrollY * 0.5, maxMovement); // Calculate movement but limit it to maxMovement
+    
+    // Apply the movement to the element
+    langImg.style.transform = `translateY(${movement}px)`;
+});
+
 //   what we do 
 
 document.addEventListener("DOMContentLoaded", function() {
