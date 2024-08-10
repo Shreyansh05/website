@@ -1833,9 +1833,19 @@ video {
 
 .faq-ilustrations .mobile.ilust{
   position: absolute;
-  top:-110px;
+  top:-170px;
   left:-30px;
   right: 0;
+  height: 200px;
+  width: 160px;
+  
+}
+.faq-ilustrations img{
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.faq-ilustrations img:hover{
+  transform: scale(1.1); /* Zoom in slightly */
+    opacity: 0.8; /* Slightly fade the image */
 }
 
 .mobile{
