@@ -307,17 +307,19 @@
   z-index: 7;
   text-align: left;
   margin: -50px 0 0 -150px;
-  width: 300px;
-  height: 100px;
+  width: 340px;
+  height: 200px;
   top: 30%;
   left: 45%;
-  font-size: 48px;
+  line-height: 1.2;
+  font-size: 38px;
   font-weight: 700;
+  font-family:questrial, sans-serif;
   text-shadow: 5px 5px 8px rgba(75, 213, 20, 0.53);
-  -webkit-animation: on .6s ease-in-out 3.7s forwards;
-  -moz-animation: on .6s ease-in-out 3.7s forwards;
-  -o-animation: on .6s ease-in-out 3.7s forwards;
-  animation: on .6s ease-in-out 3.7s forwards;
+  -webkit-animation: on 1.6s ease-in-out 3.7s forwards;
+  -moz-animation: on 1.6s ease-in-out 3.7s forwards;
+  -o-animation: on 1.6s ease-in-out 3.7s forwards;
+  animation: on 1.6s ease-in-out 3.7s forwards;
 }
 .land .text p {
   /* white-space: nowrap; */
