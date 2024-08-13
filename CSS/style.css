@@ -1972,6 +1972,6 @@ input.tgg-title {
 
 .faq-accordion .tgg-title:checked ~ .faq-accordion-content{
   will-change: max-height;
-  max-height: 80px;
+  max-height: 180px;
 }
 
