@@ -1829,11 +1829,12 @@ video {
   margin: 0 0 12px;
   line-height: 1.5;
   font-size: 0.8rem;
+  font-family:questrial, sans-serif;
 }
 
 .myfaqs h2 {
   margin: 12px 0;
-  font-family:'Times New Roman', Times, serif;
+  font-family:questrial, sans-serif;
   font-size: 1.2rem;
 }
 
