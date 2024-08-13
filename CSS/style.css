@@ -83,13 +83,28 @@
   }
   
   .brand {
-    font-family: inherit;
+     font-family:questrial, sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1.15;
     color: var(--color-teal-800);
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
     /* text-transform: uppercase; */
   }
+ 
+.brand-logo {
+  height: 40px;
+  margin-right: 8px; /* Add some space between the image and text */
+}
+
+.brand-name {
+  font-family:questrial, sans-serif;;
+  font-size: 1.0em; /* Adjust the font size as needed */
+  color: #000; /* Text color */
+  vertical-align: middle;
+}
   
   .header {
     position: fixed;
