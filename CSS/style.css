@@ -278,6 +278,14 @@
       transform: skew(180deg);
     }
   }
+
+  @media (min-width:1080px) {
+    .brand-logo{
+      width: 100px;
+      height: 65px!important;
+    }
+    
+  }
   /* end background */
 
 
