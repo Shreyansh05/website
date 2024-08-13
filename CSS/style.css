@@ -88,7 +88,7 @@
     font-weight: 700;
     line-height: 1.15;
     color: var(--color-teal-800);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   
   .header {
