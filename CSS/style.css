@@ -1373,8 +1373,9 @@ hr::after {
 
 .mytext-box p {
     font-size: 1.0rem;
-    line-height: 1.6;
+    line-height: 1.4;
     margin: 0;
+    /* text-align: justify; */
 }
 
 /* Responsive Styles */
